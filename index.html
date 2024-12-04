@@ -3,30 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Card Store</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>About Us</h1>
+        <h1>Welcome to the Card Store</h1>
         <nav>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
             </ul>
         </nav>
     </header>
 
+
+    <div class="carousel">
+        <div class="slides">
+            <div class="slide">
+                <img src="image/Ygo.webp" alt="Ad 1">
+            </div>
+            <div class="slide">
+                <img src="image/Mtg.png" alt="Ad 2">
+            </div>
+            <div class="slide">
+                <img src="image/Pkm.jpg" alt="Ad 3">
+            </div>
+        </div>
+    </div>
+
     <main>
-        <section id="about">
-            <h2>Who We Are</h2>
-            <p>This website is dedicated to helping customers to get a hands on varieties of cards in TCG. 
+        <section class="intro">
+            <h2>Variety of cards from different regions</h2>
+            <p>Japanese cards, English cards, Chinese cards and multiple other languge cards</p>
+        </section>
+
+        <section class="featured-cards">
+            <h2>Main Category</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Yu-Gi-Oh</h3>
+                    <p>
+                        <li>
+                            <a href="https://yugipedia.com/wiki/Crossover_Breakers" target="_blank">Crossover Breakers</a>                        </li>
+                        <li>
+                            <a href="https://yugipedia.com/wiki/Quarter_Century_Bonanza" target="_blank">Quarter Century Bonanza</a>                        </li>
+                        </li>
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Magic: The Gathering</h3>
+                    <p>
+                        <li>
+                            <a href="https://scryfall.com/sets/fdn" target="_blank">Foundations</a>                                  </li>
+                        <li>
+                            <a href="https://scryfall.com/sets/j25" target="_blank">Foundations Jumpstart</a>     
+                        </li>
+
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Pokemon</h3>
+                    <p>
+                        <li>
+                            <a href="https://www.pokemon.com/us/pokemon-tcg/product-gallery/collector-chest-fall-2024" target="_blank">Collector Chest 2024</a> 
+                        </li>
+                        <li>
+                            <a href="https://www.pokemon.com/us/pokemon-tcg/product-gallery/knock-out-collection-jan-2025" target="_blank">Knock Out Collection</a> 
+                        </li>
+                    </p>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 TCG CARDSHOP. All rights reserved.</p>
+        <p>&copy; 2024 TCG Cardstore. All rights reserved.</p>
     </footer>
+
+    <script src="css/animation.js"></script>
 </body>
 </html>

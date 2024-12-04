@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    </nav>
+</head>
+<header>
+    <h1>Register here</h1>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+
+    <div class="main-block">
+        <h1>Registration</h1>
+        <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+            <hr>
+
+            <hr>
+            <label for="email" id="icon">
+                <i class="fas fa-envelope"></i>
+            </label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <label for="uname" id="icon">
+                <i class="fas fa-user"></i>
+            </label>
+            <input type="text" name="name" id="uname" placeholder="Name" required>
+            <label for="upassword" id="icon">
+                <i class="fas fa-unlock-alt"></i>
+            </label>
+            <input type="password" name="upassword" id="upassword" placeholder="Password" required>
+            <hr>
+            <div class="gender">
+                <input type="radio" name="gender" id="male" value="none">
+                <label for="male" class="radio">Male</label>
+                <input type="radio" name="gender" id="female" value="none">
+                <label for="female" class="radio">Female</label>
+            </div>
+            <hr>
+            <div class="btn-block">
+                <p>
+                    By clicking Register, you agree to our  <a href="Policy.html">Privacy Policy</a></li>
+                </p>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
